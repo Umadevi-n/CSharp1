@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAndMin", "CSharp1\MaxAndMin.csproj", "{2264FC0E-6ACB-4A81-ADBE-365B9CAAF258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxAndMin", "CSharp1\MaxAndMin.csproj", "{2264FC0E-6ACB-4A81-ADBE-365B9CAAF258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingAndUnboxing", "BoxingAndUnboxing\BoxingAndUnboxing.csproj", "{F8F5B8B9-C199-4BEE-B9B6-9B128A167655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingAndUnboxing", "BoxingAndUnboxing\BoxingAndUnboxing.csproj", "{F8F5B8B9-C199-4BEE-B9B6-9B128A167655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{805E0124-E186-45DB-B5CA-B2DFB35B28BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{805E0124-E186-45DB-B5CA-B2DFB35B28BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{7FEC6C1D-ACE9-4648-BD30-84F6859D655A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{7FEC6C1D-ACE9-4648-BD30-84F6859D655A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{292DFE8E-1F1D-4CBC-84E9-5F0D451EB7C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{292DFE8E-1F1D-4CBC-84E9-5F0D451EB7C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray", "SortArray\SortArray.csproj", "{39653A3E-CC48-4B32-82D4-823213DFCE79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArray", "SortArray\SortArray.csproj", "{39653A3E-CC48-4B32-82D4-823213DFCE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{9F950BC6-1865-4879-82A4-97D1C40285F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList", "ArrayList\ArrayList.csproj", "{9F950BC6-1865-4879-82A4-97D1C40285F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{160C04C2-CA22-4A87-A794-1A65DDC91D6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj", "{160C04C2-CA22-4A87-A794-1A65DDC91D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{BBABA2AA-4008-4CB9-B2B2-B0282E30F23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{BBABA2AA-4008-4CB9-B2B2-B0282E30F23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{DFD3F1FF-3095-429A-B2F3-6AA1197C0A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{54B7726C-E023-48F7-845E-9923A02EF526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{BBABA2AA-4008-4CB9-B2B2-B0282E30F23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBABA2AA-4008-4CB9-B2B2-B0282E30F23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBABA2AA-4008-4CB9-B2B2-B0282E30F23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD3F1FF-3095-429A-B2F3-6AA1197C0A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD3F1FF-3095-429A-B2F3-6AA1197C0A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD3F1FF-3095-429A-B2F3-6AA1197C0A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD3F1FF-3095-429A-B2F3-6AA1197C0A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B7726C-E023-48F7-845E-9923A02EF526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B7726C-E023-48F7-845E-9923A02EF526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B7726C-E023-48F7-845E-9923A02EF526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B7726C-E023-48F7-845E-9923A02EF526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
